@@ -11,7 +11,6 @@ jobs:
       AWS_REGION: eu-north-1
       EB_APPLICATION_NAME: crypto-api
       EB_ENVIRONMENT_NAME: Crypto-api-env
-
       EB_VERSION_LABEL: ${{ github.sha }}-${{ github.run_number }}-${{ github.run_attempt }}
       EB_S3_KEY: deploy-${{ github.sha }}-${{ github.run_number }}-${{ github.run_attempt }}.zip
 
